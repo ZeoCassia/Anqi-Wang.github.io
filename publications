@@ -2,17 +2,27 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teaching | Anqi Wang</title>
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Publications | Anqi Wang</title>
+
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
+
 <div class="cover"></div>
 
+
 <div class="container">
+
 
     <section class="profile">
 
@@ -23,21 +33,27 @@
         >
 
         <div class="photo-caption">
-            Anqi, photographed in Baltimore
+            Anqi, New York
         </div>
 
+
         <h1>Anqi Wang</h1>
+
 
         <div class="subtitle">
             PhD Student in Philosophy · University of Leeds
         </div>
 
+
     </section>
+
 
 
     <nav>
 
-        <a href="index.html">Home</a>
+        <a href="index.html">
+            Home
+        </a>
 
         <a href="talks.html">
             Talks &amp; Presentations
@@ -57,10 +73,34 @@
 
     </nav>
 
+
+
     <main>
 
-    <h2>Publications</h2>
+        <h2>
+            Publications
+        </h2>
 
-    <p>
-        Publications will be added as they become available.
-    </p>
+
+        <p>
+            Publications will be added as they become available.
+        </p>
+
+
+    </main>
+
+
+
+    <footer>
+
+        © 2026 Anqi Wang
+
+    </footer>
+
+
+</div>
+
+
+</body>
+
+</html>
