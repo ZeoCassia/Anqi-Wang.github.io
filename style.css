@@ -235,9 +235,8 @@ footer {
 }
 
 .talk {
-    margin-bottom: 30px;
+    margin-bottom: 38px;
     padding-left: 20px;
-    border-left: 2px solid #eeeeee;
 }
 
 .talk-title {
@@ -245,7 +244,7 @@ footer {
     font-size: 18px;
     line-height: 1.5;
     color: #222222;
-    margin-bottom: 7px;
+    margin-bottom: 10px;
 }
 
 .talk-details {
@@ -253,6 +252,7 @@ footer {
     color: #777777;
     line-height: 1.6;
 }
+
     body {
         font-size: 16px;
     }
