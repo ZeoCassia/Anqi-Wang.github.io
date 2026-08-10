@@ -16,6 +16,7 @@ body {
     font-size: 17px;
 }
 
+
 /* =========================
    Cover
    ========================= */
@@ -31,13 +32,13 @@ body {
     position: relative;
 }
 
-/* A subtle overlay makes text/images easier to read */
 .cover::after {
     content: "";
     position: absolute;
     inset: 0;
     background: rgba(0, 0, 0, 0.08);
 }
+
 
 /* =========================
    Main container
@@ -48,6 +49,7 @@ body {
     margin: 0 auto;
     padding: 0 35px 80px 35px;
 }
+
 
 /* =========================
    Profile
@@ -81,11 +83,6 @@ body {
     color: #222222;
 }
 
-.subtitle {
-    font-size: 18px;
-    color: #666666;
-    margin-bottom: 25px;
-}
 .photo-caption {
     font-size: 13px;
     color: #999999;
@@ -93,6 +90,14 @@ body {
     margin-bottom: 10px;
     font-style: italic;
 }
+
+.subtitle {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 25px;
+}
+
+
 /* =========================
    Navigation
    ========================= */
@@ -116,6 +121,7 @@ nav a:hover {
     color: #315f8c;
 }
 
+
 /* =========================
    Content
    ========================= */
@@ -132,7 +138,7 @@ h2 {
     color: #222222;
 
     margin-top: 45px;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 p {
@@ -143,35 +149,61 @@ em {
     font-style: italic;
 }
 
+
 /* =========================
-   Research interests
+   Talks & Presentations
    ========================= */
 
-.research-interests {
-    margin: 30px 0;
-    padding: 25px 30px;
-
-    background-color: #f7f7f5;
-
-    border-radius: 8px;
-
-    color: #444444;
+.talk-year {
+    margin-bottom: 45px;
 }
 
-.research-interests span {
-    display: inline-block;
-    margin: 5px 8px 5px 0;
+.talk-year h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 21px;
+    font-weight: 500;
+    color: #555555;
 
-    padding: 6px 12px;
-
-    background-color: white;
-
-    border: 1px solid #e5e5e5;
-
-    border-radius: 20px;
-
-    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
+
+
+/* Each individual presentation */
+
+.talk {
+    margin-bottom: 42px;
+    padding-left: 0;
+}
+
+
+/* Presentation title */
+
+.talk-title {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.5;
+
+    color: #222222;
+
+    margin: 0 0 10px 0;
+}
+
+
+/* Conference / event information */
+
+.talk-details {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                 Helvetica, Arial, sans-serif;
+
+    font-size: 15px;
+    line-height: 1.6;
+
+    color: #777777;
+
+    margin: 0;
+}
+
 
 /* =========================
    Footer
@@ -181,10 +213,13 @@ footer {
     text-align: center;
     color: #999999;
     font-size: 13px;
+
     margin-top: 70px;
     padding-top: 25px;
+
     border-top: 1px solid #eeeeee;
 }
+
 
 /* =========================
    Mobile
@@ -218,42 +253,16 @@ footer {
         display: inline-block;
         margin: 5px 8px;
     }
-/* =========================
-   Talks & Presentations
-   ========================= */
-
-.talk-year {
-    margin-bottom: 45px;
-}
-
-.talk-year h3 {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 21px;
-    font-weight: 500;
-    color: #555555;
-    margin-bottom: 25px;
-}
-
-.talk {
-    margin-bottom: 38px;
-    padding-left: 20px;
-}
-
-.talk-title {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 18px;
-    line-height: 1.5;
-    color: #222222;
-    margin-bottom: 10px;
-}
-
-.talk-details {
-    font-size: 15px;
-    color: #777777;
-    line-height: 1.6;
-}
 
     body {
         font-size: 16px;
+    }
+
+    .talk-title {
+        font-size: 17px;
+    }
+
+    .talk-details {
+        font-size: 14px;
     }
 }
