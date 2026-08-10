@@ -204,6 +204,58 @@ em {
     margin: 0;
 }
 
+/* =========================
+   Teaching
+   ========================= */
+
+.teaching-item {
+    margin-bottom: 48px;
+}
+
+main > h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 21px;
+    font-weight: 500;
+    color: #555555;
+
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.teaching-item h4 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #222222;
+
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.teaching-meta {
+    font-size: 15px;
+    color: #777777;
+
+    margin-bottom: 18px;
+}
+
+.teaching-item p {
+    margin-bottom: 18px;
+}
+
+.teaching-responsibility-title {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.teaching-item ul {
+    margin-top: 10px;
+    padding-left: 22px;
+}
+
+.teaching-item li {
+    margin-bottom: 8px;
+}
 
 /* =========================
    Footer
