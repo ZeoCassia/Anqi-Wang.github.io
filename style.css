@@ -341,7 +341,7 @@ CV
 }
 
 .cv-viewer {
-    width: 100vw;
+    width: 80vw;
     margin-left: calc(50% - 50vw);
     margin-top: 10px;
 }
