@@ -317,6 +317,10 @@ footer {
 CV
 ========================= */
 
+/* =========================
+CV
+========================= */
+
 .cv-actions {
     margin-top: 10px;
     margin-bottom: 30px;
@@ -337,17 +341,7 @@ CV
 }
 
 .cv-viewer {
-    width: 100%;
-    height: 1100px;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
     margin-top: 10px;
-}
-
-.cv-viewer iframe {
-    display: block;
-    width: 100%;
-    height: 1100px;
-    min-width: 100%;
-    border: 1px solid #dddddd;
-}
-    }
 }
